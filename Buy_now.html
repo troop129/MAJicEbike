@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MAJic Ebike | Store</title>
+        <meta name="description" content="The Home of the MAJic Ebike">
+        <meta name="description" content="This is where to buy your own MAJic Ebike">
+		<link rel="stylesheet" href="styles.css" />
+		<script src="store.js" async></script>
+        <link rel="stylesheet" href="stickymenu.css" />
+        <link rel="stylesheet" href="stickymenumobile.css" />
+        <script src="stickymenu.js">
+        </script>
+		<link rel="shortcut icon" href="images/favicon.ico" />
+    </head>
+    <body background="images/bg3.png">
+        <center><img src="images/buynowbanner.png"></center>
+        <button id="stickymobiletoggler"></button>
+        <div id="stickymenuwrapper">
+            <div id="stickymenudiv">
+                <ul>
+                    <li><a href="Index.html"><img src="images/majiclogo1.png" /></a></li>
+                    <li><a href="Tutorial.html">Tutorial</a></li>
+                    <li><a href="Video.html">Video</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                    <li><a href="Awards.html">Awards</a></li>
+                    <li><a href="Buy_now.html">Buy Now</a></li>
+					<li><a href="About_us.html">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <section class="container content-section">
+            <h2 class="section-header">BIKES</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Founder's Edition</span>
+                    <img class="shop-item-image" src="Images/Slideshow8.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$549.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Premium Edition</span>
+                    <img class="shop-item-image" src="Images/Slideshow11.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$674.99</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                    </div>
+				</div>
+			</div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">ACCESORIES</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Extra Batteries</span>
+                    <img class="shop-item-image" src="Images/battery.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$47.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+				<div class="shop-item">
+					<span class="shop-item-title">Extra Motor</span>
+					<img class="shop-item-image" src="Images/motor.png">
+					<div class="shop-item-details">
+						<span class="shop-item-price">$39.97</span>
+						<button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+					</div>
+				<div class="shop-item">
+						<span class="shop-item-title">Charger</span>
+						<img class="shop-item-image" src="Images/charger.png">
+						<div class="shop-item-details">
+							<span class="shop-item-price">$29.95</span>
+							<button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+						</div>
+				</div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-image" src="Images/battery.png" width="100" height="100">
+                        <span class="cart-item-title">Extra Batteries</span>
+                    </div>
+                    <span class="cart-price cart-column">$47.99</span>
+                    <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" type="number" value="2">
+                        <button class="btn btn-danger" type="button">REMOVE</button>
+                    </div>
+                </div>
+				<div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-image" src="Images/charger.png" width="100" height="100">
+                        <span class="cart-item-title">Charger</span>
+                    </div>
+                    <span class="cart-price cart-column">$29.95</span>
+                    <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" type="number" value="1">
+                        <button class="btn btn-danger" type="button">REMOVE</button>
+                    </div>
+				</div>
+			</div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$125.93</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+		</section>
+        <center>
+			<small>
+				<span style="color:#000000">
+					Read our
+				</span>
+				<a href="terms.html">TERMS AND CONDITIONS</a>
+			</small>
+		</center>
+    </body>
+</html>

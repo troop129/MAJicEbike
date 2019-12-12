@@ -1,0 +1,6 @@
+User-agent:*
+Disallow:
+
+User-agent: Fake Company
+Disallow: /images
+Disallow: /scripts
